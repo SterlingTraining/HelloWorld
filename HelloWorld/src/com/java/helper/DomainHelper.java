@@ -13,5 +13,12 @@ public class DomainHelper {
 		else
 			return true;
 	}
+	
+	public static boolean isEvenNum(long number) {
+		if(number % 2 == 0)
+			return true;
+		else
+			return false;
+	}
 
 }
