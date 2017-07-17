@@ -6,7 +6,7 @@ public class DomainHelper {
 		if(name.startsWith("S"))
 			return name;
 		else
-		return "Not Supported";
+			return "Not Supported";
 	}
 	
 	public static boolean isOddNumber(long number) {
