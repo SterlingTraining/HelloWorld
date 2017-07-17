@@ -3,8 +3,10 @@ package com.java.helper;
 public class DomainHelper {
 	
 	public static String getDate(String name) {
-		//SimpleDateFormat sf = new SimpleDateFormat();
-		return name;
+		if(name.startsWith("S"))
+			return name;
+		else
+		return "Not Supported";
 	}
 	
 	public static boolean isOddNumber(long number) {
