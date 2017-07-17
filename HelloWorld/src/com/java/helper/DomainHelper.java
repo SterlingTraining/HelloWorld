@@ -3,7 +3,7 @@ package com.java.helper;
 public class DomainHelper {
 	
 	public static String getDate(String name) {
-		if(name.startsWith("S"))
+		if(name.startsWith("P"))
 			return name;
 		else
 			return "Not Supported";
