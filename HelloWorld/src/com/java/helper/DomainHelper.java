@@ -3,10 +3,10 @@ package com.java.helper;
 public class DomainHelper {
 	
 	public static String getDate(String name) {
-		if(name.startsWith("P") && name.startsWith("R"))
+	if(name.startsWith("P") && name.startsWith("R"))
 			return name;
 		else
-			return "Not Supported";
+		 return "Not Supported";
 	}
 	
 	public static boolean isOddNumber(long number) {
